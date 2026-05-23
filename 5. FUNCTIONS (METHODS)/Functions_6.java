@@ -9,6 +9,6 @@ public class Functions_6 {
         return vowel;
     }    
     public static void main(String[] args) {
-        System.out.println("char is " + isVowel(a));
+        System.out.println("char is " + isVowel('a'));
     }
 }
