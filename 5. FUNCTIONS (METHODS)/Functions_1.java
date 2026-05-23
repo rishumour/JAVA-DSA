@@ -7,3 +7,4 @@ public class Functions_1 {
         add(6);
     }
 }
+// here 6 was printed because of overshadowing where block has the most priority

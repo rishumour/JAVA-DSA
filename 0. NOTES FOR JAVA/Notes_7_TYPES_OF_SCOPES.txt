@@ -1,0 +1,2 @@
+1... types of scope
+2... use of this keyword
