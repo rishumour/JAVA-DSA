@@ -1,6 +1,7 @@
 public class Functions_5 {
+    
     public static boolean Prime(int n) {
-
+        
         boolean isPrime = true;
         
         for (int i = 2; i < n - 1; i++) { // int i = 2 because 1 is already a prime number so there is no point checking it
