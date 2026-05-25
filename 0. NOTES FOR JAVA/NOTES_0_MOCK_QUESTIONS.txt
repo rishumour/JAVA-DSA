@@ -1,0 +1,12 @@
+what are functions?
+why Functions?
+components of functions?
+sequential flow of functions....
+context of the function (scopes, this keyword)
+Stack vs heap memory, local variable table, how objects are stored
+stack frames
+call by value call by reference 
+types of functions (parameterized and non parameterized)
+recursive functions
+difference between parameters and arguments
+method overloading and overriding

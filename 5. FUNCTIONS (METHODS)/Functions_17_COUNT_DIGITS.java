@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Functions_17_COUNT_DIGITS {
+    public static int countDigits(int n, int count){
+        if(n == 0){
+            return count;
+        }
+        count += 1;
+        return countDigits(n/10, count);
+    }    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.println(countDigits(n, 0));
+    }
+}
