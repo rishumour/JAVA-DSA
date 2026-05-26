@@ -15,7 +15,16 @@ public class Functions_13_DECIMAL_TO_BINARY {
             ans += (rem * pow);     // Add the binary digit to the correct place value in the final answer
             pow = pow * 10;         // Multiply power by 10 to shift to the next position (ones, tens, hundreds, etc.)
         }
+
+        // SIMPLER APPROACH USING STRING CONVERSION
+        // ****************************************
         
+        // int decimalNum = 43;
+
+        // String binaryStr = Integer.toBinaryString(decimalNum);
+        
+        // System.out.println("Binary Value: " + binaryStr); 
+
         return ans;
     }
 
