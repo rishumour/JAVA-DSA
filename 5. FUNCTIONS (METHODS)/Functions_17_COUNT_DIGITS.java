@@ -12,5 +12,6 @@ public class Functions_17_COUNT_DIGITS {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println(countDigits(n, 0));
+        sc.close();
     }
 }

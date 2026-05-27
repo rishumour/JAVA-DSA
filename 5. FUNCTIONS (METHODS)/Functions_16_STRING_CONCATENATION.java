@@ -8,5 +8,6 @@ public class Functions_16_STRING_CONCATENATION {
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
         greet(name);
+        sc.close();
     }    
 }

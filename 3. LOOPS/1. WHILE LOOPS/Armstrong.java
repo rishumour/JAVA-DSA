@@ -5,6 +5,7 @@ public class Armstrong{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int res = 0;
+        sc.close();
         while (n > 0){
             int rem = n % 10;
             res = res + (rem * rem * rem);

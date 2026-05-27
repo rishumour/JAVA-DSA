@@ -9,11 +9,13 @@ public class EuclideanGCD {
         int max = sc.nextInt();
         System.out.println("Enter Min:");
         int min = sc.nextInt();
+        sc.close();
         while (min != 0){
             int rem = max % min;
             max = min;
             min = rem;
         }
         System.out.println(max);
+        sc.close();
     }
 }
