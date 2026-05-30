@@ -1,5 +1,4 @@
-Introduction to Methods (Functions)
-***********************************
+# Introduction to Methods (Functions)
 
 Q: What is a function in Java, and what is it called?
 => In Java, functions are called methods. A method is a structured block of code that only runs when it is explicitly called. Because Java is an entirely class-based language, every method must be defined inside a class, unlike pure functional or procedural languages.
@@ -17,8 +16,7 @@ public static   int    sum  (int a, int b) { ... }
 
 ______________________________________________________________________________________________________________________________
 
-Key Concepts & Syntax
-*********************
+# Key Concepts & Syntax
 
 1. Return Types & Parameters
 

@@ -1,5 +1,4 @@
-Function (Method) Overloading
-*****************************
+# Function (Method) Overloading
 
 Q: What is Method Overloading in Java?
 => Method overloading is a feature that allows a class to have more than one method with the exact same name, as long as their parameter lists (signatures) are different. It is a core pillar of Object-Oriented Programming representing Compile-Time (or Static) Polymorphism.
@@ -9,8 +8,7 @@ Q: Why do we use method overloading instead of giving methods different names?
 
 ______________________________________________________________________________________________________________________________
 
-Rules for Overloading
-*********************
+# Rules for Overloading
 
 Q: What constitutes a unique method signature for overloading?
 =>  The compiler distinguishes methods based on their argument lists. To successfully overload a method, you must change at least one of the following:
@@ -39,8 +37,8 @@ Example:
     }
 ______________________________________________________________________________________________________________________________
 
-Method Overloading Mechanics
-****************************
+# Method Overloading Mechanics
+
 
 1. The Compiler's Role (Static Binding)
 
@@ -64,8 +62,7 @@ Example:
 
 ______________________________________________________________________________________________________________________________
 
-Pros & Cons of Method Overloading
-*********************************
+# Pros & Cons of Method Overloading
 
 => Pros
 

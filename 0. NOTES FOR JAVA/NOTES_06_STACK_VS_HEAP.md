@@ -1,5 +1,5 @@
-Introduction to Java Memory Management
-**************************************
+# Introduction to Java Memory Management
+
 
 Q: Where does Java manage application runtime data?
 => The Java Virtual Machine (JVM) divides system memory into distinct logical regions during execution. The two most critical regions for programmers to understand are Stack Memory and Heap Memory.
@@ -7,7 +7,7 @@ Q: Where does Java manage application runtime data?
 ______________________________________________________________________________________________________________________________
 
 1. Stack memory
-***************
+
 
 Q: What is Stack Memory and how does it operate?
 => Stack memory is a physically organized, sequential memory structure that operates on a Last-In, First-Out (LIFO) basis. Each running thread in a Java application gets its own completely isolated stack area.
@@ -22,7 +22,6 @@ Q: What exactly is stored inside Stack Memory?
 
 
 2. Heap Memory
-**************
 
 Q: What is Heap Memory and how does it operate?
 => Heap memory is a vast, structurally dynamic, global memory space used for dynamic allocation. Unlike the Stack, all threads share a single, central Heap area.

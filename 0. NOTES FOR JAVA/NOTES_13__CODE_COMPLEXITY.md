@@ -1,5 +1,4 @@
-Code Complexity
-***************
+# Code Complexity
 
 Q: What is code complexity in programming?
 => Code complexity refers to the measurement of resources—specifically time (CPU execution operations) and space (RAM memory allocation)—that an algorithm consumes as the size of the input data scales upward.
@@ -9,14 +8,12 @@ Q: How is complexity formally measured?
 
 __________________________________________________________________________________________________________________________________________________________________
 
-Types of Time Complexity
-************************
+# Types of Time Complexity
 
 => the most common time complexities encountered in programming, ranked from fastest to slowest.
 
 
 1. Constant Time: O(1)
-----------------------
 
 => The execution time remains completely identical, regardless of whether the input size is 10 or 10 million elements.
  
@@ -27,7 +24,6 @@ Types of Time Complexity
             }
 
 2. Logarithmic Time: O(logn)
-----------------------------
 
 => The execution steps are cut in half with every single iteration. Algorithms with this complexity scale exceptionally well to massive datasets.
 
@@ -47,7 +43,6 @@ Types of Time Complexity
         }
 
 3. Linear Time: O(n)
---------------------
 
 => The execution steps grow in direct, 1-to-1 proportion with the input size n. If the array doubles in size, the time taken doubles.
 
@@ -60,14 +55,12 @@ Types of Time Complexity
         }
 
 4. Linearithmic Time: O(nlogn)
-------------------------------
 
 => Occurs when an algorithm performs a logarithmic operation (O(logn)) nested inside a linear loop (O(n)). This is typical for highly efficient sorting algorithms.
 
     -> Example: Built-in Java sorting algorithms (Arrays.sort()), Merge Sort, and Quick Sort.
      
 5. Quadratic Time: O(n2)
-------------------------
 
 => The execution steps grow exponentially relative to the input data. If n=10, it takes 100 operations. If n=100, it takes 10,000 operations.
 
@@ -83,8 +76,7 @@ Types of Time Complexity
 
 __________________________________________________________________________________________________________________________________________________________________
 
-Time vs. Space Complexity
-*************************
+# Time vs. Space Complexity
 
 Q: What is Space Complexity?
 => While Time Complexity counts execution steps, Space Complexity measures the amount of extra memory allocation an algorithm requires relative to the input size n.

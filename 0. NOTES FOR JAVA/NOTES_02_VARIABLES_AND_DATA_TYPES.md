@@ -1,5 +1,4 @@
-Variables in Java
-*****************
+# Variables in Java
 
 Q: What is a variable in Java?
 => A variable is a container or a named memory location used to store data values during the execution of a Java program. Because Java is statically typed, every variable must be declared with a specific data type before it can be used.
@@ -16,8 +15,7 @@ Q: What are the three types of variables in Java based on their scope?
 
 ______________________________________________________________________________________________________________________________
 
-Data Types in Java
-******************
+# Data Types in Java
 
 Q: How are data types categorized in Java?
 => Java categorizes data types into two distinct groups: Primitive Data Types and Non-Primitive (Reference) Data Types.
@@ -40,8 +38,7 @@ Data Types in Java
 ______________________________________________________________________________________________________________________________
 
 
-Pros & Cons of Java's Data Type System
-**************************************
+# Pros & Cons of Java's Data Type System
 
 Pros
 

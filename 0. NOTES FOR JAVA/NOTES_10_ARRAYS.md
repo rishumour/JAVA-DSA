@@ -1,5 +1,5 @@
-1. Array Basics & Declaration
-*****************************
+# 1 Array Basics & Declaration
+
     -> Definition: An array is a fixed-size, homogeneous data structure that stores elements of the same data type in contiguous memory locations.
 
     -> Index-Based: Elements are accessed using a 0-based index. The first element is at 0, and the last is at length - 1.
@@ -12,8 +12,8 @@
 
 __________________________________________________________________________________________________________________________________________________________________
 
-2. Accessing & Modifying Elements
-*********************************
+# 2. Accessing & Modifying Elements
+
 
     -> Accessing: Retrieve a value using its index.
         int firstElement = arr[0];
@@ -25,8 +25,7 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________________________
 
-3. Traversing Arrays (Looping)
-******************************
+# 3. Traversing Arrays (Looping)
     
     -> For Loop (Index-based): Best when you need the index or want to modify elements.
         for (int i = 0; i < arr.length; i++) {
@@ -40,7 +39,7 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________________________
 
-4. Common Array Operations
+# 4. Common Array Operations
 
     -> Because native arrays have a fixed size, operations like insertion and deletion require manual shifting or creating a new array.
 
@@ -56,8 +55,7 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________________________
 
-5. The java.util.Arrays Utility Class
-*************************************
+# 5. The java.util.Arrays Utility Class
 
     -> Java provides a built-in utility class with highly optimized, ready-to-use methods for common operations:
         
@@ -75,8 +73,7 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________________________
 
-6. Multidimensional Arrays (Arrays of Arrays)
-*********************************************
+# 6. Multidimensional Arrays (Arrays of Arrays)
 
     -> Definition: In Java, a 2D array is essentially an array where each element is itself another array.
 
@@ -97,8 +94,7 @@ ________________________________________________________________________________
         }
 __________________________________________________________________________________________________________________________________________________________________
 
-7. Memory Management & Limitations
-**********************************
+# 7. Memory Management & Limitations
 
     -> Heap Allocation: Arrays are treated as objects in Java. They are always allocated on the heap, and the array variable holds a reference to that memory location.
 

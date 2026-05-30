@@ -1,5 +1,4 @@
-Introduction to Loops
-*********************
+# Introduction to Loops
 
 Q: What is a loop in Java?
 => A loop is a control flow statement that repeatedly executes a block of code as long as a specified boolean condition remains true. Loops are fundamental for iterating through data structures and automating repetitive tasks.
@@ -13,8 +12,7 @@ Q: What are the three essential components of a loop control mechanism?
 
 ______________________________________________________________________________________________________________________________
 
-Types of Loops in Java
-**********************
+# Types of Loops in Java
 
 Java provides four primary loop structures, categorized into entry-controlled and exit-controlled loops.
 
@@ -64,8 +62,7 @@ Q: What makes the do-while loop unique?
 
 ______________________________________________________________________________________________________________________________
 
-Loop Control Statements
-***********************
+# Loop Control Statements
 
 Q: What is the difference between break and continue inside loops?
 =>  break: Instantly terminates the loop entirely and transfers control to the next line of code outside the loop structure.

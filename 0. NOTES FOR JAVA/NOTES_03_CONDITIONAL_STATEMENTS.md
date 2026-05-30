@@ -1,5 +1,4 @@
-Introduction to Conditional Statements
-**************************************
+# Introduction to Conditional Statements
 
 Q: What are conditional statements in Java?
 A: Conditional statements are control flow structures that allow a program to make decisions and execute different blocks of code depending on whether a specific condition evaluates to true or false. They form the core logic of dynamic programming.
@@ -9,8 +8,7 @@ A: Java conditions must strictly evaluate to a boolean value (true or false). Un
 
 ______________________________________________________________________________________________________________________________
 
-Types of Conditional Structures
-*******************************
+# Types of Conditional Structures
 
 Java offers three primary ways to handle conditional logic: if-else structures, the conditional (ternary) operator, and switch statements.
 

@@ -1,5 +1,4 @@
-Introduction & Fundamentals
-***************************
+# Introduction & Fundamentals
 
 Q: What is Java?
 => Java is a high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible. It was developed by James Gosling at Sun Microsystems (now owned by Oracle) and released in 1995.
@@ -11,8 +10,7 @@ Q: What is the core philosophy behind Java's design?
 ______________________________________________________________________________________________________________________________
 
 
-Why Java?
-*********
+# Why Java?
 
 Q: How does Java achieve platform independence?
 => Through the **Java Virtual Machine (JVM)**. Instead of compiling directly into machine code for a specific operating system, Java code is compiled into an intermediate format called **bytecode**. The JVM on the target machine interprets or compiles this bytecode into native machine code.
@@ -36,8 +34,7 @@ Syntax: Python focuses on readability with minimal syntax; Java is verbose and r
 
 ______________________________________________________________________________________________________________________________
 
-Industry Scope & Applications
-*****************************
+# Industry Scope & Applications
 
 Q: Where is Java used most in the modern tech industry?
 => Java remains a dominant force across several major domains:
@@ -51,8 +48,7 @@ Q: Is Java still relevant today?
 
 ______________________________________________________________________________________________________________________________
 
-Pros & Cons
-***********
+# Pros & Cons
 
 Advantages (Pros)
 

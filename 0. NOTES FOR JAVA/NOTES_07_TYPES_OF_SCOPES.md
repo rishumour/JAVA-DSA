@@ -1,5 +1,4 @@
-Types of Scope in Java
-***********************
+# Types of Scope in Java
 
 Q: What does "scope" mean in Java?
 => Scope refers to the visibility and lifetime of a variable within a program. It determines which parts of your code can access or modify a specific variable, and where that variable is automatically destroyed to free up memory.
@@ -12,8 +11,7 @@ Q: What are the four primary scopes in Java?
 
 ______________________________________________________________________________________________________________________________
 
-Detailed Breakdown of Scopes
-****************************
+# Detailed Breakdown of Scopes
 
 1. Class Scope (Static Variables)
 
@@ -66,8 +64,7 @@ Example:
 
 ______________________________________________________________________________________________________________________________
 
-This keyword
-************
+# This keyword
 
 
 Q: What is the this keyword in Java?

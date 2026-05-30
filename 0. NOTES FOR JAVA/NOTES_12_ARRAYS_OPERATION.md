@@ -1,5 +1,5 @@
 # first import java.util.Arrays
-*******************************
+
 
 1-> Arrays.toString(arr) // used to convert the whole array into string
 

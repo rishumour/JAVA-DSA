@@ -1,5 +1,4 @@
-Recursive Functions
-*******************
+# Recursive Functions
 
 Q: What is a recursive function (method) in Java?A: 
 => recursive function is a method that solves a problem by calling itself, directly or indirectly. It breaks a complex problem down into smaller, identical sub-problems until it reaches a point where the problem can be solved without further recursion.
@@ -19,8 +18,7 @@ Example:
     }
 ______________________________________________________________________________________________________________________________
 
-Memory Mechanics of Recursion
-*****************************
+# Memory Mechanics of Recursion
 
 Q: How does the JVM handle recursive calls under the hood?
 =>  Java utilizes Stack Memory to manage recursion. Every time a recursive method calls itself, the JVM pauses the current execution and pushes a fresh Stack Frame containing the method's local variables and parameters onto the Call Stack.
@@ -28,8 +26,7 @@ Q: How does the JVM handle recursive calls under the hood?
 These frames pile up sequentially until the base case is finally reached. Once triggered, the stack begins unwinding: frames are popped off top-to-bottom as values return to their prior callers.
 ______________________________________________________________________________________________________________________________
 
-Common Implementation Mistakes
-******************************
+# Common Implementation Mistakes
 
 Q: What is a Stack Overflow in recursion?
 => If a recursive method lacks a base case, or if its arguments fail to progress toward the base case, the Call Stack will run out of configured memory room. The JVM will immediately halt execution and throw a java.lang.StackOverflowError.
@@ -38,8 +35,7 @@ Q: Does Java support Automatic Tail-Call Optimization (TCO)?
 => No. Some functional programming languages optimize "tail-recursive" functions to prevent stack accumulation. The standard Java compiler does not do this; every single recursive step creates a physical stack frame regardless of how the code is structured.
 ______________________________________________________________________________________________________________________________
 
-Pros & Cons of Recursive Functions
-**********************************
+# Pros & Cons of Recursive Functions
 
 => Pros
 
