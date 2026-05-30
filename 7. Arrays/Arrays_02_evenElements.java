@@ -11,7 +11,7 @@ public class Arrays_02_evenElements{
         }
         for (int i = 0; i < n; i++){
             if(arr[i] % 2 == 0){
-                System.out.print(arr[i] + " ");
+                System.out.println(arr[i] + " ");
             }
         }
         sc.close();
