@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Arrays_11_substraction {
+public class Arrays_11_subtraction_of_individual_element {
 
     public static String subtractArrays(int[] arr1, int[] arr2) {
         

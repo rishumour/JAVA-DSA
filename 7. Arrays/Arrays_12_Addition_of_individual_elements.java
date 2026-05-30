@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Arrays_12_Addition {
+public class Arrays_12_Addition_of_individual_elements {
     public static String addArrays(int[] arr1, int[] arr2) {
         
         int maxLength = Math.max(arr1.length, arr2.length); // the result array must be the size of the larger input array
