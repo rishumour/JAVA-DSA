@@ -12,7 +12,8 @@ class Display {
         System.out.println("Printing string: " + text);
     }
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
+        
         Display display = new Display();
         
         display.print(42);           
